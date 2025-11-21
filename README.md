@@ -28,7 +28,7 @@
 <div align="left">
   <a href="#"><img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&color=FF0000&logoColor=white&style=for-the-badge" height="32"/></a>
   <a href="#"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&logoColor=white&style=for-the-badge" height="32"/></a>
-  <a href="[www.linkedin.com/in/hoang-nguyen-viet765](https://www.linkedin.com/in/hoang-nguyen-viet765/)"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="32"/></a>
+  <a href="https://www.linkedin.com/in/hoang-nguyen-viet765/"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="32"/></a>
   <a href="mailto:hoangthth12@gmail.com"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&color=D14836&logoColor=white&style=for-the-badge" height="32"/></a>
 </div>
 
