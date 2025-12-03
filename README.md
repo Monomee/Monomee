@@ -2,14 +2,15 @@
 
 🎮 I build gameplay systems, optimize performance, and design fun experiences.  
 🔥 Unity • C# • Game Architecture • Design Patterns • NavMesh • Object Pooling  
-🌱 Currently exploring: ...
+🌱 Currently exploring: Grid Base Game...
 
 ---
 
 ### 🧩 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Monomee&show_icons=true&theme=dracula&hide_border=false" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Monomee&layout=compact&theme=dracula&hide_border=false" height="150" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Monomee&theme=dracula" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Monomee&theme=dracula" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Monomee&theme=dracula" />
 </div>
 
 ---
