@@ -1,8 +1,8 @@
-<h2 align="left">Hi 👋 I'm Nguyen Viet Hoang — Unity Game Developer from Vietnam</h2>
+<h2 align="left">Hi 👋 I'm Nguyen Viet Hoang — Software Engineering Student | Game Development & Backend Systems</h2>
 
 🎮 I build gameplay systems, optimize performance, and design fun experiences.  
-🔥 Unity • C# • Game Architecture • Design Patterns • NavMesh • Object Pooling  
-🌱 Currently exploring: Grid Base Game...
+🔥 Unity • C# • Game Architecture • Design Patterns • Java • Springboot
+🌱 Currently exploring: Grid Base Game in Unity, Full Stack Web Development with JavaScript, Python, Node.js...
 
 ---
 
