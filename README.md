@@ -69,9 +69,3 @@
 </div>
 
 <br />
-
----
-
-<div align="center">
-  <sub>⚡ TERMINAL SESSION: <code>MONOME</code> · BUILT WITH ZERO-DEPENDENCY NODE.JS & SVG HUD RENDERER</sub>
-</div>
