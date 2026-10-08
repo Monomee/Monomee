@@ -1,32 +1,27 @@
 <div align="center">
 
-  <!-- 01 // MAIN HERO PROFILE CARD -->
   <img src="./profile-assets/hero-card.svg" width="100%" alt="Nguyen Viet Hoang — Game Developer Profile Card" />
 
 </div>
 
-<br />
+<div align="center">
 
-```text
-> SYSTEM_SPEC: Nguyen Viet Hoang (Monome) · Gameplay Engineer
-> FOCUS: Core gameplay systems, state architecture, and performance optimization in Unity & C#
-> CURRENT_OBJECTIVE: Developing simulation & grid-based game mechanics with modular architecture
-```
+  <img src="./profile-assets/terminal-console.svg" width="100%" alt="System Specification Terminal Stream" />
+
+</div>
 
 <div align="center">
 
-  <!-- 02 // GITHUB TELEMETRY CARD -->
   <img src="./profile-assets/telemetry-card.svg" width="100%" alt="Monome GitHub Telemetry and Metrics" />
 
 </div>
 
 <br />
 
-### 🛠️ `SYSTEM_MODULES` // Languages & Tools
+### 🛠️ Languages & Tools
 
 <div align="center">
 
-  <!-- 03 // TECH STACK CARD -->
   <img src="./profile-assets/skills-card.svg" width="100%" alt="Game Development Technologies and Languages" />
 
 </div>
@@ -44,11 +39,10 @@
 
 <br />
 
-### 🎮 `PROJECT_ARCHIVE` // Featured Release
+### 🎮 Featured Project
 
 <div align="center">
 
-  <!-- 04 // FEATURED PROJECT CARD (CLICKABLE) -->
   <a href="https://monomee.itch.io/mixie-empire-boba-and-ice-cream" target="_blank" rel="noopener noreferrer">
     <img src="./profile-assets/project-card.svg" width="100%" alt="Mixie Empire: Boba & Ice Cream on itch.io" />
   </a>
@@ -57,7 +51,7 @@
 
 <br />
 
-### 🌐 `COMMUNICATION_LINK` // Connect
+### 🌐 Connect
 
 <div align="center">
   <a href="https://portfolio-nguyen-viet-hoang.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -79,5 +73,5 @@
 ---
 
 <div align="center">
-  <sub>⚡ TERMINAL SESSION: <code>MONOME // 2026.4</code> · BUILT WITH ZERO-DEPENDENCY NODE.JS & SVG HUD RENDERER</sub>
+  <sub>⚡ TERMINAL SESSION: <code>MONOME</code> · BUILT WITH ZERO-DEPENDENCY NODE.JS & SVG HUD RENDERER</sub>
 </div>

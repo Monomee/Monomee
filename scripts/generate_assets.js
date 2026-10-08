@@ -11,6 +11,7 @@ const {
   renderTelemetryCard,
   renderProjectCard,
   renderSkillsCard,
+  renderConsoleCard,
 } = require("../lib/cards");
 
 async function main() {
@@ -25,6 +26,7 @@ async function main() {
 
   const files = {
     "hero-card.svg": renderHeroCard(data),
+    "terminal-console.svg": renderConsoleCard(),
     "telemetry-card.svg": renderTelemetryCard(data),
     "project-card.svg": renderProjectCard(),
     "skills-card.svg": renderSkillsCard(),

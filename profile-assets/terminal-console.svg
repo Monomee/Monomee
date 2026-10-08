@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 138" width="100%" height="138" role="img" aria-label="System Specification Terminal Stream">
+  
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .blink {
+        animation: blink 1s infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.65; }
+        50% { opacity: 1; filter: drop-shadow(0 0 3px #00ff9f); }
+      }
+      .pulse {
+        animation: pulse 2s ease-in-out infinite;
+      }
+    </style>
+
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.2" opacity="0.32" />
+    </pattern>
+
+    <!-- Subtle Dot Grid -->
+    <pattern id="dot-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#26313b" opacity="0.5" />
+    </pattern>
+
+    <!-- Cyan Glow Filter -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Green Glow Filter -->
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Avatar Rounded Clip -->
+    <clipPath id="avatar-clip">
+      <rect x="36" y="72" width="128" height="128" rx="6" />
+    </clipPath>
+  </defs>
+  
+
+  <!-- Card Background -->
+  <rect width="820" height="138" rx="8" fill="#0c0e12" stroke="#26313b" stroke-width="1.2" />
+  <rect width="820" height="138" rx="8" fill="url(#dot-grid)" pointer-events="none" />
+
+  
+  <!-- Window Header Bar -->
+  <path d="M 1 1 H 819 V 42 H 1 Z" fill="#11161c" />
+  <line x1="1" y1="42" x2="819" y2="42" stroke="#26313b" stroke-width="1" />
+
+  <!-- Terminal Control Buttons -->
+  <circle cx="28" cy="21" r="5" fill="#ff6b6b" />
+  <circle cx="44" cy="21" r="5" fill="#ffd166" />
+  <circle cx="60" cy="21" r="5" fill="#00ff9f" />
+
+  <!-- Title Text -->
+  <text x="82" y="25" fill="#7d8995" font-family="ui-monospace, 'Cascadia Code', monospace" font-size="12" font-weight="600" letter-spacing="1">TERMINAL_STREAM: SYSTEM_SPEC</text>
+  
+
+  <!-- Right Status Indicator -->
+  <rect x="684" y="10" width="112" height="22" rx="4" fill="#091410" stroke="#00ff9f" stroke-width="0.8" />
+  <circle cx="698" cy="21" r="4" fill="#00ff9f" filter="url(#glow-green)" class="pulse" />
+  <text x="709" y="25" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="0.8">● ACTIVE</text>
+  
+
+  <!-- Terminal Stream Body -->
+  <g transform="translate(24, 50)">
+    <rect width="772" height="74" rx="4" fill="#090d12" stroke="#1a2430" stroke-width="1" />
+    
+    <!-- Line 1: SYSTEM_SPEC -->
+    <text x="16" y="22" fill="#00e5ff" font-family="ui-monospace, 'Cascadia Code', monospace" font-size="11.5" font-weight="700">&gt; SYSTEM_SPEC:</text>
+    <text x="136" y="22" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11.5">Nguyen Viet Hoang (Monome) · Gameplay Engineer</text>
+
+    <!-- Line 2: FOCUS -->
+    <text x="16" y="43" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700">&gt; FOCUS:</text>
+    <text x="82" y="43" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11.5">Core gameplay systems, state architecture, and performance optimization in Unity &amp; C#</text>
+
+    <!-- Line 3: OBJECTIVE -->
+    <text x="16" y="64" fill="#ffd166" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700">&gt; OBJECTIVE:</text>
+    <text x="114" y="64" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11.5">Developing simulation &amp; grid-based game mechanics with modular architecture</text>
+    
+    <!-- Animated Blinking Cursor -->
+    <rect x="712" y="52" width="7" height="13" fill="#00e5ff" class="blink" />
+  </g>
+
+  <!-- CRT Scanlines Overlay -->
+  <rect width="820" height="138" rx="8" fill="url(#scanlines)" pointer-events="none" />
+
+  
+  <g stroke="#00e5ff" stroke-width="1.5" fill="none" opacity="0.75">
+    <path d="M 10 20 L 10 10 L 20 10" />
+    <path d="M 800 10 L 810 10 L 810 20" />
+    <path d="M 10 118 L 10 128 L 20 128" />
+    <path d="M 800 128 L 810 128 L 810 118" />
+  </g>
+  
+</svg>
