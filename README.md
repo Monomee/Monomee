@@ -1,90 +1,83 @@
-<table>
-  <tr>
-    <td width="190" align="center">
-      <img src="https://github.com/Monomee.png" alt="Nguyen Viet Hoang" width="160" height="160" />
-    </td>
-    <td>
-      <h1>Nguyen Viet Hoang</h1>
-      <h3>Game Developer · Unity · C#</h3>
-      <p>Building gameplay systems, optimizing performance, and creating engaging experiences with Unity and C#.</p>
-      <a href="https://portfolio-nguyen-viet-hoang.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit portfolio" /></a>
-      <a href="mailto:hoangthth12@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact by email" /></a>
-    </td>
-  </tr>
-</table>
+<div align="center">
 
----
+  <!-- 01 // MAIN HERO PROFILE CARD -->
+  <img src="./profile-assets/hero-card.svg" width="100%" alt="Nguyen Viet Hoang — Game Developer Profile Card" />
 
-### 🎮 Focus
-<table>
-  <tr>
-    <th>Area</th>
-    <th>Details</th>
-  </tr>
-  <tr>
-    <td><strong>Primary role</strong></td>
-    <td>Game Developer</td>
-  </tr>
-  <tr>
-    <td><strong>Core stack</strong></td>
-    <td>Unity · C#</td>
-  </tr>
-  <tr>
-    <td><strong>Strengths</strong></td>
-    <td>Gameplay programming · Game architecture · Design patterns · Performance optimization</td>
-  </tr>
-  <tr>
-    <td><strong>Currently exploring</strong></td>
-    <td>Grid-based games and full-stack development</td>
-  </tr>
-</table>
+</div>
 
----
+<br />
 
-### 📊 GitHub Snapshot
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://komarev.com/ghpvc/?username=Monomee&style=for-the-badge&color=6C63FF&label=PROFILE+VIEWS" alt="Profile views" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/github/followers/Monomee?style=for-the-badge&color=6C63FF&label=FOLLOWERS" alt="GitHub followers" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/github/repos/Monomee?style=for-the-badge&color=6C63FF&label=REPOSITORIES" alt="GitHub repositories" />
-    </td>
-  </tr>
-</table>
+```text
+> SYSTEM_SPEC: Nguyen Viet Hoang (Monome) · Gameplay Engineer
+> FOCUS: Core gameplay systems, state architecture, and performance optimization in Unity & C#
+> CURRENT_OBJECTIVE: Developing simulation & grid-based game mechanics with modular architecture
+```
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Monomee&theme=dracula" alt="GitHub profile details" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Monomee&theme=dracula" alt="Repositories per language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Monomee&theme=dracula" alt="Most committed languages" />
+
+  <!-- 02 // GITHUB TELEMETRY CARD -->
+  <img src="./profile-assets/telemetry-card.svg" width="100%" alt="Monome GitHub Telemetry and Metrics" />
+
 </div>
+
+<br />
+
+### 🛠️ `SYSTEM_MODULES` // Languages & Tools
+
+<div align="center">
+
+  <!-- 03 // TECH STACK CARD -->
+  <img src="./profile-assets/skills-card.svg" width="100%" alt="Game Development Technologies and Languages" />
+
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://unity.com/" target="_blank"><img src="https://img.shields.io/badge/Unity-11161c?style=for-the-badge&logo=unity&logoColor=00e5ff" alt="Unity" /></a>
+  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img src="https://img.shields.io/badge/C%23-11161c?style=for-the-badge&logo=csharp&logoColor=ffd166" alt="C#" /></a>
+  <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-11161c?style=for-the-badge&logo=git&logoColor=ff6b6b" alt="Git" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-11161c?style=for-the-badge&logo=javascript&logoColor=ffd166" alt="JavaScript" /></a>
+  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-11161c?style=for-the-badge&logo=python&logoColor=00ff9f" alt="Python" /></a>
+  <a href="https://www.java.com/" target="_blank"><img src="https://img.shields.io/badge/Java-11161c?style=for-the-badge&logo=openjdk&logoColor=00e5ff" alt="Java" /></a>
+</div>
+
+<br />
+
+### 🎮 `PROJECT_ARCHIVE` // Featured Release
+
+<div align="center">
+
+  <!-- 04 // FEATURED PROJECT CARD (CLICKABLE) -->
+  <a href="https://monomee.itch.io/mixie-empire-boba-and-ice-cream" target="_blank" rel="noopener noreferrer">
+    <img src="./profile-assets/project-card.svg" width="100%" alt="Mixie Empire: Boba & Ice Cream on itch.io" />
+  </a>
+
+</div>
+
+<br />
+
+### 🌐 `COMMUNICATION_LINK` // Connect
+
+<div align="center">
+  <a href="https://portfolio-nguyen-viet-hoang.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/PORTFOLIO-11161c?style=for-the-badge&logo=vercel&logoColor=00e5ff" alt="Portfolio" />
+  </a>
+  <a href="https://monomee.itch.io/mixie-empire-boba-and-ice-cream" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/ITCH.IO-11161c?style=for-the-badge&logo=itchdotio&logoColor=ffd166" alt="Itch.io" />
+  </a>
+  <a href="https://www.linkedin.com/in/hoang-nguyen-viet765/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LINKEDIN-11161c?style=for-the-badge&logo=linkedin&logoColor=00e5ff" alt="LinkedIn" />
+  </a>
+  <a href="mailto:hoangthth12@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-11161c?style=for-the-badge&logo=gmail&logoColor=ff6b6b" alt="Email" />
+  </a>
+</div>
+
+<br />
 
 ---
 
-### 🛠️ Languages & Tools
-<div align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="40" alt="C#" />
-  <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" width="40" alt="Unity" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" alt="Java" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" alt="JavaScript" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" alt="Python" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" alt="Git" />
+<div align="center">
+  <sub>⚡ TERMINAL SESSION: <code>MONOME // 2026.4</code> · BUILT WITH ZERO-DEPENDENCY NODE.JS & SVG HUD RENDERER</sub>
 </div>
-
----
-
-### 🌐 Connect
-<div align="left">
-  <a href="#"><img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&color=FF0000&logoColor=white&style=for-the-badge" height="32" alt="YouTube" /></a>
-  <a href="#"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&logoColor=white&style=for-the-badge" height="32" alt="Instagram" /></a>
-  <a href="https://www.linkedin.com/in/hoang-nguyen-viet765/"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="32" alt="LinkedIn" /></a>
-  <a href="mailto:hoangthth12@gmail.com"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&color=D14836&logoColor=white&style=for-the-badge" height="32" alt="Email" /></a>
-</div>
-
-<br clear="both">
-
-<!-- Profile stats are intentionally kept lightweight; add project-specific cards when there is data worth highlighting. -->
-
