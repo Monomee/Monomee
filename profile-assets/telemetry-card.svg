@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 240" width="100%" height="240" role="img" aria-label="GitHub Telemetry and Statistics">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 376" width="100%" height="376" role="img" aria-label="GitHub Telemetry, Activity Metrics, and Language Distribution">
   
   <defs>
     <style>
@@ -53,9 +53,16 @@
   </defs>
   
 
+  <defs>
+    <!-- Language Bar Rounded Clip -->
+    <clipPath id="lang-bar-clip">
+      <rect x="46" y="274" width="728" height="14" rx="4" />
+    </clipPath>
+  </defs>
+
   <!-- Card Background -->
-  <rect width="820" height="240" rx="8" fill="#0c0e12" stroke="#26313b" stroke-width="1.2" />
-  <rect width="820" height="240" rx="8" fill="url(#dot-grid)" pointer-events="none" />
+  <rect width="820" height="376" rx="8" fill="#0c0e12" stroke="#26313b" stroke-width="1.2" />
+  <rect width="820" height="376" rx="8" fill="url(#dot-grid)" pointer-events="none" />
 
   
   <!-- Window Header Bar -->
@@ -110,31 +117,82 @@
     <text x="122" y="47" fill="#495763" font-family="ui-monospace, monospace" font-size="10">CORE</text>
   </g>
 
-  <!-- Activity Telemetry Readout Box -->
+  <!-- SECTION 1: Activity Telemetry & Commit Breakdown Box -->
   <g id="activity-telemetry">
-    <rect x="28" y="134" width="764" height="88" rx="4" fill="#090d12" stroke="#1a2430" stroke-width="1" />
+    <rect x="28" y="134" width="764" height="96" rx="4" fill="#090d12" stroke="#1a2430" stroke-width="1" />
     
     <!-- Title Line -->
-    <text x="44" y="154" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" letter-spacing="1">ACTIVITY MATRIX</text>
-    <text x="774" y="154" text-anchor="end" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">PIPELINE: NORMAL</text>
+    <text x="46" y="152" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" letter-spacing="1">ACTIVITY MATRIX</text>
+    <text x="772" y="152" text-anchor="end" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">PIPELINE: NORMAL</text>
 
-    <!-- Render Blocks -->
-    <rect x="44.0" y="168" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="73.5" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.65" /><rect x="103.0" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.65" /><rect x="132.5" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="162.0" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.65" /><rect x="191.5" y="168" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="221.0" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="250.5" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.65" /><rect x="280.0" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.65" /><rect x="309.5" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="339.0" y="168" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="368.5" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.65" /><rect x="398.0" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="427.5" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.65" /><rect x="457.0" y="168" width="26" height="15" rx="2" fill="#ffd166" fill-opacity="0.9" /><rect x="486.5" y="168" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="516.0" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.65" /><rect x="545.5" y="168" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.65" /><rect x="575.0" y="168" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.5" /><rect x="604.5" y="168" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.5" /><rect x="634.0" y="168" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.5" /><rect x="663.5" y="168" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.5" /><rect x="693.0" y="168" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" /><rect x="722.5" y="168" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" /><rect x="752.0" y="168" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" /><rect x="781.5" y="168" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" />
+    <!-- Render Blocks (Bound strictly within container) -->
+    <rect x="46.0" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="75.8" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="105.6" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="135.4" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="165.2" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="195.0" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="224.8" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="254.6" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="284.4" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="314.2" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="344.0" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="373.8" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="403.6" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="433.4" y="166" width="26" height="15" rx="2" fill="#ffd166" fill-opacity="0.95" /><rect x="463.2" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="493.0" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="522.8" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="552.6" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.55" /><rect x="582.4" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.55" /><rect x="612.2" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.55" /><rect x="642.0" y="166" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" /><rect x="671.8" y="166" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" /><rect x="701.6" y="166" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" /><rect x="731.4" y="166" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" />
 
-    <!-- Status Text line below blocks -->
-    <text x="44" y="206" fill="#7d8995" font-family="ui-monospace, monospace" font-size="11">&gt; telemetry_sync: 29 active events detected in telemetry window</text>
-    <text x="774" y="206" text-anchor="end" fill="#00e5ff" font-family="ui-monospace, monospace" font-size="11" font-weight="600">[ CAPACITY: 88% ]</text>
+    <!-- Commit / Activity Statistics Breakdown -->
+    <text x="46" y="210" fill="#00e5ff" font-family="ui-monospace, monospace" font-size="10" font-weight="700">PUSH COMMITS: 16</text>
+    <text x="195" y="210" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="10" font-weight="700">PULL REQUESTS: 12</text>
+    <text x="350" y="210" fill="#ffd166" font-family="ui-monospace, monospace" font-size="10" font-weight="700">UPDATES: 5</text>
+    <text x="772" y="210" text-anchor="end" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10">[ 33 RECORDED EVENTS ]</text>
+  </g>
+
+  <!-- SECTION 2: Language Distribution Telemetry Chart -->
+  <g id="language-telemetry">
+    <rect x="28" y="240" width="764" height="114" rx="4" fill="#090d12" stroke="#1a2430" stroke-width="1" />
+    
+    <!-- Header Line -->
+    <text x="46" y="260" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" letter-spacing="1">LANGUAGE TELEMETRY RATIO</text>
+    <text x="772" y="260" text-anchor="end" fill="#ffd166" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">PRIMARY: C# (46.7%)</text>
+
+    <!-- Base Track -->
+    <rect x="46" y="274" width="728" height="14" rx="4" fill="#131c26" stroke="#26313b" stroke-width="0.8" />
+
+    <!-- Clipped Segments -->
+    <g clip-path="url(#lang-bar-clip)">
+      <rect x="46.0" y="274" width="340.0" height="14" fill="#ffd166" /><rect x="386.0" y="274" width="121.6" height="14" fill="#ff6b6b" /><rect x="507.6" y="274" width="96.8" height="14" fill="#00e5ff" /><rect x="604.4" y="274" width="72.8" height="14" fill="#00ff9f" /><rect x="677.2" y="274" width="96.8" height="14" fill="#7d8995" />
+    </g>
+
+    <!-- Horizontal Legend Chips -->
+    
+      <g transform="translate(46, 306)">
+        <circle cx="5" cy="5" r="3.5" fill="#ffd166" />
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">C# <tspan fill="#7d8995" font-weight="400">46.7%</tspan></text>
+      </g>
+    
+      <g transform="translate(191, 306)">
+        <circle cx="5" cy="5" r="3.5" fill="#ff6b6b" />
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">JavaScript <tspan fill="#7d8995" font-weight="400">16.7%</tspan></text>
+      </g>
+    
+      <g transform="translate(336, 306)">
+        <circle cx="5" cy="5" r="3.5" fill="#00e5ff" />
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">ShaderLab <tspan fill="#7d8995" font-weight="400">13.3%</tspan></text>
+      </g>
+    
+      <g transform="translate(481, 306)">
+        <circle cx="5" cy="5" r="3.5" fill="#00ff9f" />
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">Java <tspan fill="#7d8995" font-weight="400">10%</tspan></text>
+      </g>
+    
+      <g transform="translate(626, 306)">
+        <circle cx="5" cy="5" r="3.5" fill="#7d8995" />
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">Other <tspan fill="#7d8995" font-weight="400">13.3%</tspan></text>
+      </g>
+    
+
+    <!-- Analysis Summary Subline -->
+    <text x="46" y="340" fill="#495763" font-family="ui-monospace, monospace" font-size="10">&gt; analysis: Evaluated across 33 public repositories · Unity &amp; C# ecosystem core</text>
+    <text x="772" y="340" text-anchor="end" fill="#00e5ff" font-family="ui-monospace, monospace" font-size="10" font-weight="600">[ 100% COMPILED ]</text>
   </g>
 
   <!-- CRT Scanlines Overlay -->
-  <rect width="820" height="240" rx="8" fill="url(#scanlines)" pointer-events="none" />
+  <rect width="820" height="376" rx="8" fill="url(#scanlines)" pointer-events="none" />
 
   
   <g stroke="#00e5ff" stroke-width="1.5" fill="none" opacity="0.75">
     <path d="M 10 20 L 10 10 L 20 10" />
     <path d="M 800 10 L 810 10 L 810 20" />
-    <path d="M 10 220 L 10 230 L 20 230" />
-    <path d="M 800 230 L 810 230 L 810 220" />
+    <path d="M 10 356 L 10 366 L 20 366" />
+    <path d="M 800 366 L 810 366 L 810 356" />
   </g>
   
 </svg>
