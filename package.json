@@ -1,0 +1,21 @@
+{
+  "name": "monome-profile",
+  "version": "2.0.0",
+  "description": "Custom Retro Terminal & Game HUD GitHub Profile for Nguyen Viet Hoang (Monome)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:assets": "node scripts/generate_assets.js"
+  },
+  "keywords": [
+    "github-profile",
+    "svg",
+    "game-developer",
+    "retro-terminal",
+    "unity",
+    "csharp"
+  ],
+  "author": "Nguyen Viet Hoang (Monomee)",
+  "license": "MIT"
+}
