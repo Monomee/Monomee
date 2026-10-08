@@ -4,13 +4,11 @@
 
 </div>
 
-<br />
+<div align="center">
 
-```text
-> SYSTEM_SPEC: Nguyen Viet Hoang (Monome) · Gameplay Engineer
-> FOCUS: Core gameplay systems, state architecture, and performance optimization in Unity & C#
-> CURRENT_OBJECTIVE: Developing simulation & grid-based game mechanics with modular architecture
-```
+  <img src="./profile-assets/terminal-console.svg" width="100%" alt="System Specification Terminal Stream" />
+
+</div>
 
 <div align="center">
 
