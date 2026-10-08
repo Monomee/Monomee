@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Monomee.png" alt="Nguyen Viet Hoang" width="160" height="160" />
+</p>
+
 <h1 align="center">Hi 👋 I'm Nguyen Viet Hoang</h1>
 <h3 align="center">Game Developer · Unity · C#</h3>
 
@@ -13,9 +17,28 @@
 ---
 
 ### 🎮 Focus
-- Gameplay programming and system design with **Unity** and **C#**
-- Game architecture, design patterns, and performance optimization
-- Currently exploring grid-based games and expanding my full-stack development skills
+<table>
+  <tr>
+    <th>Area</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td><strong>Primary role</strong></td>
+    <td>Game Developer</td>
+  </tr>
+  <tr>
+    <td><strong>Core stack</strong></td>
+    <td>Unity · C#</td>
+  </tr>
+  <tr>
+    <td><strong>Strengths</strong></td>
+    <td>Gameplay programming · Game architecture · Design patterns · Performance optimization</td>
+  </tr>
+  <tr>
+    <td><strong>Currently exploring</strong></td>
+    <td>Grid-based games and full-stack development</td>
+  </tr>
+</table>
 
 ---
 
