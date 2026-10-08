@@ -130,9 +130,9 @@
 
     <!-- Commit / Activity Statistics Breakdown -->
     <text x="46" y="210" fill="#00e5ff" font-family="ui-monospace, monospace" font-size="10" font-weight="700">PUSH COMMITS: 16</text>
-    <text x="195" y="210" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="10" font-weight="700">PULL REQUESTS: 12</text>
+    <text x="195" y="210" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="10" font-weight="700">PULL REQUESTS: 14</text>
     <text x="350" y="210" fill="#ffd166" font-family="ui-monospace, monospace" font-size="10" font-weight="700">UPDATES: 5</text>
-    <text x="772" y="210" text-anchor="end" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10">[ 33 RECORDED EVENTS ]</text>
+    <text x="772" y="210" text-anchor="end" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10">[ 35 RECORDED EVENTS ]</text>
   </g>
 
   <!-- SECTION 2: Language Distribution Telemetry Chart -->
