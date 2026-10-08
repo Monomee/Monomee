@@ -8,6 +8,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const profileHandler = require("./api/profile");
+const consoleHandler = require("./api/console");
 const telemetryHandler = require("./api/telemetry");
 const projectHandler = require("./api/project");
 const skillsHandler = require("./api/skills");
@@ -140,7 +141,15 @@ function renderPreviewHtml() {
 
     <div class="card-wrap">
       <div class="card-label">
-        <span>02 // GITHUB TELEMETRY CARD</span>
+        <span>02 // TERMINAL STREAM (SYSTEM_SPEC)</span>
+        <a href="/api/console" target="_blank">[ OPEN RAW SVG ↗ ]</a>
+      </div>
+      <img src="/api/console" alt="Terminal Console Card" id="console-img" />
+    </div>
+
+    <div class="card-wrap">
+      <div class="card-label">
+        <span>03 // GITHUB TELEMETRY CARD</span>
         <a href="/api/telemetry" target="_blank">[ OPEN RAW SVG ↗ ]</a>
       </div>
       <img src="/api/telemetry" alt="GitHub Telemetry Card" id="telemetry-img" />
@@ -204,6 +213,11 @@ const server = http.createServer(async (req, res) => {
 
     if (pathname === "/api/profile") {
       await profileHandler(req, res);
+      return;
+    }
+
+    if (pathname === "/api/console") {
+      await consoleHandler(req, res);
       return;
     }
 
