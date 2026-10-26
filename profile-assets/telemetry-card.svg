@@ -89,7 +89,7 @@
   <g transform="translate(28, 56)">
     <rect width="180" height="66" rx="4" fill="#11161c" stroke="#26313b" stroke-width="1" />
     <text x="16" y="22" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10" font-weight="600" letter-spacing="1">REPOSITORIES</text>
-    <text x="16" y="49" fill="#00e5ff" font-family="ui-monospace, monospace" font-size="24" font-weight="800">35</text>
+    <text x="16" y="49" fill="#00e5ff" font-family="ui-monospace, monospace" font-size="24" font-weight="800">36</text>
     <text x="74" y="47" fill="#495763" font-family="ui-monospace, monospace" font-size="10">PUBLIC REPOS</text>
   </g>
 
@@ -105,7 +105,7 @@
   <g transform="translate(416, 56)">
     <rect width="180" height="66" rx="4" fill="#11161c" stroke="#26313b" stroke-width="1" />
     <text x="16" y="22" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10" font-weight="600" letter-spacing="1">FOLLOWERS</text>
-    <text x="16" y="49" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="24" font-weight="800">4</text>
+    <text x="16" y="49" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="24" font-weight="800">5</text>
     <text x="74" y="47" fill="#495763" font-family="ui-monospace, monospace" font-size="10">DEV NETWORK</text>
   </g>
 
@@ -129,10 +129,10 @@
     <rect x="46.0" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="75.8" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="105.6" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="135.4" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="165.2" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="195.0" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="224.8" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="254.6" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="284.4" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="314.2" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="344.0" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="373.8" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="403.6" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.95" /><rect x="433.4" y="166" width="26" height="15" rx="2" fill="#ffd166" fill-opacity="0.95" /><rect x="463.2" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="493.0" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.9" /><rect x="522.8" y="166" width="26" height="15" rx="2" fill="#00ff9f" fill-opacity="0.7" /><rect x="552.6" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.55" /><rect x="582.4" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.55" /><rect x="612.2" y="166" width="26" height="15" rx="2" fill="#00e5ff" fill-opacity="0.55" /><rect x="642.0" y="166" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" /><rect x="671.8" y="166" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" /><rect x="701.6" y="166" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" /><rect x="731.4" y="166" width="26" height="15" rx="2" fill="#1a2430" fill-opacity="0.45" />
 
     <!-- Commit / Activity Statistics Breakdown -->
-    <text x="46" y="210" fill="#00e5ff" font-family="ui-monospace, monospace" font-size="10" font-weight="700">PUSH COMMITS: 39</text>
-    <text x="195" y="210" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="10" font-weight="700">PULL REQUESTS: 24</text>
-    <text x="350" y="210" fill="#ffd166" font-family="ui-monospace, monospace" font-size="10" font-weight="700">UPDATES: 11</text>
-    <text x="772" y="210" text-anchor="end" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10">[ 74 RECORDED EVENTS ]</text>
+    <text x="46" y="210" fill="#00e5ff" font-family="ui-monospace, monospace" font-size="10" font-weight="700">PUSH COMMITS: 50</text>
+    <text x="195" y="210" fill="#00ff9f" font-family="ui-monospace, monospace" font-size="10" font-weight="700">PULL REQUESTS: 28</text>
+    <text x="350" y="210" fill="#ffd166" font-family="ui-monospace, monospace" font-size="10" font-weight="700">UPDATES: 12</text>
+    <text x="772" y="210" text-anchor="end" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10">[ 90 RECORDED EVENTS ]</text>
   </g>
 
   <!-- SECTION 2: Language Distribution Telemetry Chart -->
@@ -141,46 +141,46 @@
     
     <!-- Header Line -->
     <text x="46" y="260" fill="#7d8995" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" letter-spacing="1">LANGUAGE TELEMETRY RATIO</text>
-    <text x="772" y="260" text-anchor="end" fill="#ffd166" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">PRIMARY: C# (43.8%)</text>
+    <text x="772" y="260" text-anchor="end" fill="#ffd166" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">PRIMARY: C# (39.4%)</text>
 
     <!-- Base Track -->
     <rect x="46" y="274" width="728" height="14" rx="4" fill="#131c26" stroke="#26313b" stroke-width="0.8" />
 
     <!-- Clipped Segments -->
     <g clip-path="url(#lang-bar-clip)">
-      <rect x="46.0" y="274" width="318.9" height="14" fill="#ffd166" /><rect x="364.9" y="274" width="159.4" height="14" fill="#ff6b6b" /><rect x="524.3" y="274" width="91.0" height="14" fill="#00e5ff" /><rect x="615.3" y="274" width="68.4" height="14" fill="#00ff9f" /><rect x="683.7" y="274" width="91.0" height="14" fill="#7d8995" />
+      <rect x="46.0" y="274" width="286.8" height="14" fill="#ffd166" /><rect x="332.8" y="274" width="198.7" height="14" fill="#ff6b6b" /><rect x="531.6" y="274" width="88.1" height="14" fill="#00e5ff" /><rect x="619.7" y="274" width="66.2" height="14" fill="#00ff9f" /><rect x="685.9" y="274" width="88.1" height="14" fill="#7d8995" />
     </g>
 
     <!-- Horizontal Legend Chips -->
     
       <g transform="translate(46, 306)">
         <circle cx="5" cy="5" r="3.5" fill="#ffd166" />
-        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">C# <tspan fill="#7d8995" font-weight="400">43.8%</tspan></text>
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">C# <tspan fill="#7d8995" font-weight="400">39.4%</tspan></text>
       </g>
     
       <g transform="translate(191, 306)">
         <circle cx="5" cy="5" r="3.5" fill="#ff6b6b" />
-        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">JavaScript <tspan fill="#7d8995" font-weight="400">21.9%</tspan></text>
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">JavaScript <tspan fill="#7d8995" font-weight="400">27.3%</tspan></text>
       </g>
     
       <g transform="translate(336, 306)">
         <circle cx="5" cy="5" r="3.5" fill="#00e5ff" />
-        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">ShaderLab <tspan fill="#7d8995" font-weight="400">12.5%</tspan></text>
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">ShaderLab <tspan fill="#7d8995" font-weight="400">12.1%</tspan></text>
       </g>
     
       <g transform="translate(481, 306)">
         <circle cx="5" cy="5" r="3.5" fill="#00ff9f" />
-        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">Java <tspan fill="#7d8995" font-weight="400">9.4%</tspan></text>
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">Java <tspan fill="#7d8995" font-weight="400">9.1%</tspan></text>
       </g>
     
       <g transform="translate(626, 306)">
         <circle cx="5" cy="5" r="3.5" fill="#7d8995" />
-        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">Other <tspan fill="#7d8995" font-weight="400">12.5%</tspan></text>
+        <text x="14" y="9" fill="#e8edf2" font-family="ui-monospace, monospace" font-size="11" font-weight="600">Other <tspan fill="#7d8995" font-weight="400">12.1%</tspan></text>
       </g>
     
 
     <!-- Analysis Summary Subline -->
-    <text x="46" y="340" fill="#495763" font-family="ui-monospace, monospace" font-size="10">&gt; analysis: Evaluated across 35 public repositories · Unity &amp; C# ecosystem core</text>
+    <text x="46" y="340" fill="#495763" font-family="ui-monospace, monospace" font-size="10">&gt; analysis: Evaluated across 36 public repositories · Unity &amp; C# ecosystem core</text>
     <text x="772" y="340" text-anchor="end" fill="#00e5ff" font-family="ui-monospace, monospace" font-size="10" font-weight="600">[ 100% COMPILED ]</text>
   </g>
 
